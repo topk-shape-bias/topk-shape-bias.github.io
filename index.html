@@ -220,6 +220,21 @@
 </section> -->
 
 
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/shapeBias_all.jpg"
+         class="interpolation-image"
+         alt="Interpolate start reference image."/>
+      <h2 class="subtitle has-text-centered">
+        Shape bias of our sparse CNNs versus standard CNNs and SOTA transformer-based networks in comparison to the shape bias of human subjects, 
+        as evaluated on <a href="https://github.com/bethgelab/model-vs-human/">cue-conflict dataset</a>. The red dotted line shows the frontier of transformer-based networks with the best shape bias. 
+        The greed dotted line shows that sparse CNNs push the frontier of the shape bias boundary toward humans.
+      </h2>
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
@@ -379,6 +394,66 @@
 
   </div>
 </section> -->
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Visualize the information encoded by TopK & Non-TopK neurons</h2>
+
+        <!-- Interpolating. -->
+        <h3 class="title is-4">Visualizing the Top-K/Non-Top-K neurons via Texture Synthesis</h3>
+        <div class="content has-text-justified">
+          <p>
+<!--             TODO -->
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <img src="./static/images/teaser.png"
+               class="interpolation-image"
+               alt="Interpolate start reference image."/>
+        </div>
+        <h3 class="title is-4">Visualizing the Top-K/Non-Top-K neurons via reconstruction</h3>
+        <div class="content has-text-justified">
+          <p>
+<!--             TODO -->
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <img src="./static/images/Vis_topK.jpg"
+               class="interpolation-image"
+               alt="Interpolate start reference image."/>
+        </div>
+
+        <h2 class="title is-3">CNN inference with Top-K to improve shape bias</h2>
+        <div class="content has-text-justified">
+          <p>
+            The classification result on the <a href="https://proceedings.neurips.cc/paper_files/paper/2021/file/c8877cff22082a16395a57e97232bb6f-Paper.pdf">Shape Bias Benchmark</a>. This plot shows the shape bias of sparse CNNs, CNNs and humans on different class in texture-shape cue conflict dataset. 
+            It also show the shape bias of different sparsity degree. e.g. 5% means that only top 5% activation value would be passed to the next layer. Vertical lines means the average value.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <img src="./static/images/cue-conflict_shape-bias_matrixplot_AlexNet_VGG.jpg"
+               class="interpolation-image"
+               alt="Interpolate start reference image."/>
+        </div>
+
+        <h2 class="title is-3">Shape Biased Few Shot Image Synthesis</h2>
+        <div class="content has-text-justified">
+          <p>
+<!--             TODO -->
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <img src="./static/images/fewShot.jpg"
+               class="interpolation-image"
+               alt="Interpolate start reference image."/>
+        </div>
+        <br/>
+      </div>
+    </div>
+
 
 
 <section class="section" id="BibTeX">
